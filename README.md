@@ -23,7 +23,7 @@ int main() {
 struct myStructures {
         int myNum;
         char myLetter;
-        char myString[5];
+        char myString[10];
 };
 
 int main(){
