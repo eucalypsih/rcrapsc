@@ -18,7 +18,7 @@ int main() {
 
 ```c
 #include <stdio.h>
-#include <string.h
+#include <string.h>
 
 struct myStructures {
         int myNum;
@@ -31,7 +31,7 @@ int main(){
         s1.myNum = 1;
         s1.myLetter = 'A';
         strcpy(s1.myString, "Some Text");
-        printf("%d %c %s, s1.myNum, s1.myLetter, s1.myString);
+        printf("%d %c %s", s1.myNum, s1.myLetter, s1.myString);
         return 0;
 }
 
